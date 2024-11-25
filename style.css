@@ -1,0 +1,72 @@
+.top-container {
+    background-color: cornflowerblue;
+    position: relative;
+    padding-top: 100px;
+}
+body {
+    margin:0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    margin: 0 auto;
+    width: 30%;
+    font-size: 90px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* ให้ส่วนนี้เต็มหน้าจอ */
+    background-color: #87CEEB;
+    position: relative;
+}
+
+.middle-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px; /* จำกัดความกว้างสูงสุด */
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.bottom-container {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.skills table th,
+.skills table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
